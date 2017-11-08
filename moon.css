@@ -1,0 +1,27 @@
+.p1 {
+  width: 70px;
+  height: 80px;
+  border-radius: 50px 50px 0 0;
+  border: solid 5px red;
+  
+}
+
+.p2 {
+  width: 70px;
+  height: 80px;
+  border-radius: 0 0 50px 50px;
+  border: solid 5px red;
+  
+}
+.moon {
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  border: solid red 3px;
+  border-width: 0 0 5px 5px;
+ 
+  
+ 
+ 
+  
+}
