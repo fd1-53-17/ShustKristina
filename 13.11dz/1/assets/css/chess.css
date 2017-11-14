@@ -48,9 +48,10 @@
 .fig {
     background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
    
-    background-position: 100% 0%;
+    background-position: 100% 10%;
     
     height: calc(100vmin / 10);
+    background-size: auto 25vmin;
 }
 
 .fig0 {
@@ -58,41 +59,47 @@
    
     background-position: 100% 100%;
       height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig1 {
     background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
    
-    background-position: 40% 0%;
+    background-position: 40% 5%;
       height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig2 {
     background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
    
-    background-position: 80% 0%;
+    background-position: 80% 5%;
      height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig3 {
     background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
 
-    background-position: 60% 0%;
+    background-position: 60% 5%;
       height: calc(100vmin / 10);
+       background-size: auto 25vmin;
 }
 
 .fig4 {
     background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
    
-    background-position: 20% 0%;
+    background-position: 20% 5%;
      height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig5 {
     background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
   
-    background-position: 0% 0%;
+    background-position: 0% 5%;
      height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig6 {
@@ -100,6 +107,7 @@
     
     background-position: 40% 100%;
      height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig7 {
@@ -107,6 +115,7 @@
   
     background-position: 80% 100%;
       height: calc(100vmin / 10);
+       background-size: auto 25vmin;
 }
 
 .fig8 {
@@ -114,6 +123,7 @@
     
     background-position: 60% 100%;
      height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig9 {
@@ -121,6 +131,7 @@
    
     background-position: 20% 100%;
      height: calc(100vmin / 10);
+      background-size: auto 25vmin;
 }
 
 .fig10 {
@@ -128,4 +139,5 @@
    
     background-position: 0% 100%;
       height: calc(100vmin / 10);
+       background-size: auto 25vmin;
 }
