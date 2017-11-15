@@ -1,0 +1,31 @@
+div {
+    height: 20px;
+    width: 340px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+span {
+    float: left;
+}
+
+ul {
+    float: right;
+    margin: 0;
+    padding: 1px;
+}
+
+li {
+    padding: 2px 9px;
+    list-style-type: none;
+    display: inline;
+    background-color: gray;
+    color: darkred;
+}
+
+
+.red {
+    color: white;
+    background-color: darkred;
+}
+
