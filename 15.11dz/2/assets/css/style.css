@@ -1,0 +1,51 @@
+.maket {
+    width: 756px;
+    height: 430px;
+}
+
+.header {
+    width: 756px;
+    height: 46px;
+    text-align: center;
+    background-color: #afeeee;
+    color: blue;
+    font-size: 20px;
+}
+
+.aside {
+    width: 187px;
+    height: 319px;
+    background-color: #ffdead;
+    margin-top: -16px;
+}
+
+.img {
+    width: 200px;
+    height: 135px;
+    float: left;
+    margin-top: 57px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.content {
+    width: calc(756px - 187px);
+    height: 319px;
+    margin-left: 187px;
+    margin-top: -319px;
+}
+
+.text {
+    clear: none;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.footer {
+    width: 756px;
+    height: 65px;
+    text-align: center;
+    background-color: #afeeee;
+    color: blue;
+    font-size: 20px;
+}
