@@ -1,0 +1,161 @@
+.wrapper {
+    width: 822px;
+}
+
+.header {
+    width: 822px;
+    height: 114px;
+    border-bottom: 2px solid green;
+}
+
+.one {
+    width: 105px;
+    height: 93px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: left;
+}
+
+.two {
+    width: 235px;
+    height: 93px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    margin-left: 127px;
+}
+
+.three {
+    width: 435px;
+    height: 93px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: right;
+    margin-top: -95px;
+}
+
+.main {
+    width: 822px;
+    height: 700px;
+    border-bottom: 2px solid green;
+}
+
+aside {
+    width: 157px;
+    float: left;
+}
+
+.asside {
+    width: 155px;
+    height: 285px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    margin-top: 20px;
+}
+
+.asside2 {
+    width: 155px;
+    height: 114px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    margin-top: 265px;
+}
+
+.content {
+    width: 647px;
+    float: left;
+}
+
+.five {
+    width: 645px;
+    height: 177px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+ul {
+    display: block;
+    width: 665px;
+    height: 300px;
+}
+
+li {
+
+    display: inline-block;
+    border: 1px solid lightgray;
+    width: 113px;
+    height: 130px;
+    float: left;
+    margin-left: -23px;
+    margin-top: 5px;
+    margin-right: 41px;
+    margin-bottom: 15px;
+    background-color: lightgray;
+}
+
+.nine {
+    width: 312px;
+    height: 170px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    margin-left: 18px;
+    margin-top: -15px;
+}
+
+.eight {
+    width: 312px;
+    height: 170px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: right;
+    margin-top: -15px;
+    margin-right: -18px;
+}
+
+.footer {
+    width: 822px;
+    height: 180px;
+}
+
+.ten {
+    width: 251px;
+    height: 153px;
+    border: 1px solid darkgrey;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: left;
+    margin-top: 20px;
+}
+
+.eleven {
+    width: 251px;
+    height: 153px;
+    border: 1px solid darkgrey;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: left;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+
+.twelve {
+    width: 261px;
+    height: 62px;
+    border: 1px solid darkgrey;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.therteen {
+    width: 261px;
+    height: 62px;
+    border: 1px solid darkgrey;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    float: right;
+    margin-top: 27px;
+}
