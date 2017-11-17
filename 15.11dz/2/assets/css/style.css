@@ -33,12 +33,14 @@
     height: 319px;
     margin-left: 187px;
     margin-top: -319px;
-    background-image: assets/image/footboll1.png;
-    
+    background-image: url(https://apf.mail.ru/cgi-bin/readmsg/football1.png?id=15109048000000000676%3B0%3B1&x-email=shust1991%40mail.ru&exif=1&bs=2269&bl=17209&ct=image%2Fpng&cn=football1.png&cte=binary);
+background-position: 
 }
 
+
+
 .text {
-    clear: none;
+   
     margin-left: 20px;
     padding-top: 5px;
 }
