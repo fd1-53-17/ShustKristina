@@ -29,6 +29,8 @@ table {
     float: left;
     margin-top: -3px;
     margin-left: -2px;
+    background: url(../image/football1.png) 100% 100% repeat-y;
+    background-size: 60px;
 }
 
 .content2 {

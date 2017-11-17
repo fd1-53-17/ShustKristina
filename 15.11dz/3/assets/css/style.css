@@ -25,6 +25,8 @@
     height: calc(100% - 20% - 25%);
     margin-left: 190px;
     margin-top: -325px;
+    background: url(../image/football1.png) 100% 100% repeat-y;
+    background-size: 60px;
 }
 
 .img {
