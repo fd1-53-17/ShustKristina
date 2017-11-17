@@ -1,0 +1,175 @@
+.wrapper {
+    position: static;
+    width: 822px;
+    margin: auto;
+}
+
+header {
+    width: 822px;
+    height: 114px;
+    position: relative;
+    border-bottom: 2px solid green;
+}
+
+.one {
+    width: 105px;
+    height: 93px;
+    position: static;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+
+}
+
+.two {
+    width: 235px;
+    height: 93px;
+    position: relative;
+    left: 123px;
+    top: -95px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+
+}
+
+.three {
+    width: 435px;
+    height: 93px;
+    position: relative;
+    left: 375px;
+    top: -190px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+
+}
+
+main {
+    width: 822px;
+    height: 700px;
+    position: relative;
+
+}
+
+aside {
+    width: 155px;
+    height: 690px;
+    position: absolute;
+}
+
+.aside1 {
+    width: 155px;
+    height: 285px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    position: static;
+
+}
+
+.aside2 {
+    width: 155px;
+    height: 114px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    position: absolute;
+    bottom: 0;
+
+}
+
+article {
+    width: 647px;
+    height: 690px;
+    position: absolute;
+    top: 0;
+    left: 165px;
+
+}
+
+.five {
+    width: 645px;
+    height: 177px;
+    position: static;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+ul {
+    display: block;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    width: 113px;
+    height: 130px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    margin-right: 11px;
+    margin-bottom: 10px;
+
+}
+
+.eight {
+    width: 312px;
+    height: 170px;
+    position: static;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+}
+
+.nine {
+    width: 312px;
+    height: 170px;
+    position: absolute;
+    bottom: 0;
+    left: 330px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+footer {
+    position: relative;
+    width: 822px;
+    height: 180px;
+    border-top: 2px solid green;
+}
+
+.ten {
+    width: 251px;
+    height: 153px;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+}
+
+.eleven {
+    width: 251px;
+    height: 153px;
+    position: absolute;
+    bottom: 0;
+    left: 272px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+}
+
+.twelve {
+    width: 261px;
+    height: 62px;
+    position: absolute;
+    bottom: 90px;
+    left: 545px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+}
+
+.therteen {
+    width: 261px;
+    height: 62px;
+    position: absolute;
+    bottom: 0;
+    left: 545px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+
+}
