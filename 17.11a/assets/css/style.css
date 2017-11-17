@@ -109,8 +109,7 @@ li {
 
 .eight {
     width: 312px;
-    height: 170px;
-    position: static;
+    height: 190px;
     border: 1px solid lightgray;
     background-color: lightgray;
     position: absolute;
@@ -119,7 +118,7 @@ li {
 
 .nine {
     width: 312px;
-    height: 170px;
+    height: 190px;
     position: absolute;
     bottom: 0;
     left: 330px;
