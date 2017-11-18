@@ -1,0 +1,38 @@
+.z {
+    position: relative;
+    width: 145px;
+    height: 195px;
+}
+
+.three {
+    background-image: url(../image/cards2.png);
+    background-position: 66.5% 7.6%;
+}
+
+.seven {
+    background-image: url(../image/cards2.png);
+    background-position: 33% 38.5%;
+}
+
+.tuz {
+    background-image: url(../image/cards2.png);
+    background-position: 100% 92.5%;
+}
+
+.z1 {
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+
+.z2 {
+    z-index: 15;
+    top: -110px;
+    left: 40px;
+}
+
+.z3 {
+    z-index: 0;
+    top: -220px;
+    left: 80px;
+}
