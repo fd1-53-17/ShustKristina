@@ -1,0 +1,59 @@
+table {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.header {
+    width: 80vw;
+    height: 10vh;
+    text-align: center;
+    background-color: #afeeee;
+    color: blue;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.aside {
+    width: 20vw;
+    height: 80vh;
+    background-color: #ffdead;
+    float: left;
+    margin-top: -3px;
+}
+
+.content {
+    width: 60vw;
+    height: 80vh;
+    float: left;
+    margin-top: -3px;
+    margin-left: -2px;
+    background: url(../image/football1.png) 100% 100% repeat-y;
+    background-size: 60px;
+}
+
+.content2 {
+    margin-left: 20px;
+
+}
+
+img {
+    width: 20vw;
+    margin-left: 15px;
+    margin-top: 55px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.footer {
+    width: 80vw;
+    height: 12vh;
+    text-align: center;
+    background-color: #afeeee;
+    color: blue;
+    padding-top: 5vh;
+    font-size: 20px;
+    margin-top: -3px;
+}
