@@ -1,0 +1,97 @@
+body {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+}
+
+.one,
+.two,
+.three {
+    position: absolute;
+}
+
+.row1>.one {
+    top: 0;
+}
+
+.row1>.two {
+    left: 15px;
+}
+
+.row1>.three {
+    left: 30px;
+}
+
+.row2>.one {
+    top: 15px;
+}
+
+.row2>.two {
+    top: 15px;
+    left: 30px;
+}
+
+.row2>.three {
+    top: 15px;
+    left: 15px;
+}
+
+.row3>.one {
+    top: 30px;
+    left: 15px;
+}
+
+.row3>.two {
+    top: 30px;
+    left: 0;
+}
+
+.row3>.three {
+    top: 30px;
+    left: 30px;
+}
+
+.row4>.one {
+    top: 45px;
+    left: 30px;
+}
+
+.row4>.two {
+    top: 45px;
+    left: 0;
+}
+
+.row4>.three {
+    top: 45px;
+    left: 15px;
+}
+
+.row5>.one {
+    top: 60px;
+    left: 15px;
+}
+
+.row5>.two {
+    top: 60px;
+    left: 30px;
+}
+
+.row5>.three {
+    top: 60px;
+    left: 0;
+}
+
+.row6>.one {
+    top: 75px;
+    left: 30px;
+}
+
+.row6>.two {
+    top: 75px;
+    left: 15px;
+}
+
+.row6>.three {
+    top: 75px;
+    left: 0;
+}

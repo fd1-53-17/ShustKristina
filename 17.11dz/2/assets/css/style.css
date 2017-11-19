@@ -1,0 +1,165 @@
+.table {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    overflow: auto;
+}
+
+.line_abc {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+}
+
+.line1 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.line2 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.line3 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.line4 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.line5 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+
+.line6 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.line7 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+}
+
+.line8 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.line_abc2 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
+
+.square {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    background-color: white;
+    outline: 1px solid black;
+    padding: 0;
+}
+
+.darkgray {
+    background-color: darkgray;
+    outline: 1px solid black;
+    padding: 0;
+}
+
+.fig {
+    background-image: url(../image/chess.png);
+    background-position: 103% 10%;
+}
+
+.fig0 {
+    background-image: url(../image/chess.png);
+    background-position: 103% 100%;
+}
+
+.fig1 {
+    background-image: url(../image/chess.png);
+    background-position: 40% 5%;
+}
+
+.fig2 {
+    background-image: url(../image/chess.png);
+    background-position: 83% 5%;
+}
+
+.fig3 {
+    background-image: url(../image/chess.png);
+    background-position: 62% 5%;
+}
+
+.fig4 {
+    background-image: url(../image/chess.png);
+    background-position: 20% 5%;
+}
+
+.fig5 {
+    background-image: url(../image/chess.png);
+    background-position: 0% 5%;
+}
+
+.fig6 {
+    background-image: url(../image/chess.png);
+    background-position: 40% 100%;
+}
+
+.fig7 {
+    background-image: url(../image/chess.png);
+    background-position: 83% 100%;
+}
+
+.fig8 {
+    background-image: url(../image/chess.png);
+    background-position: 63% 100%;
+}
+
+.fig9 {
+    background-image: url(../image/chess.png);
+    background-position: 20% 100%;
+}
+
+.fig10 {
+    background-image: url(../image/chess.png);
+    background-position: -2% 100%;
+}
