@@ -1,0 +1,490 @@
+body {
+    height: 150vmin;
+}
+
+.chessTable {
+    padding-top: 20vmin;
+    width: 90vmin;
+    height: 90vmin;
+    margin: auto;
+    counter-reset: div;
+    text-align: center;
+}
+
+.chessTable>div {
+    outline: 1px solid blue;
+    width: calc(90vmin / 9);
+    height: calc(90vmin / 9);
+}
+
+.chessTable>div {
+    display: block;
+    float: left;
+}
+
+div:nth-of-type(2n+1):not(.chessTable) {
+    background-color: blue;
+}
+
+div:nth-of-type(1):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(2):not(.chessTable):after {
+    content: "a";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(3):not(.chessTable):after {
+    content: "b";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(4):not(.chessTable):after {
+    content: "c";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(5):not(.chessTable):after {
+    content: "d";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(6):not(.chessTable):after {
+    content: "e";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(7):not(.chessTable):after {
+    content: "f";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(8):not(.chessTable):after {
+    content: "g";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(9):not(.chessTable):after {
+    content: "h";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    margin-top: -200%;
+}
+
+div:nth-of-type(1):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(2):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 40% 5%;
+}
+
+div:nth-of-type(3):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 83% 5%;
+}
+
+div:nth-of-type(4):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 62% 5%;
+}
+
+div:nth-of-type(5):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 20% 5%;
+}
+
+div:nth-of-type(6):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 0% 5%;
+}
+
+div:nth-of-type(7):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 62% 5%;
+}
+
+div:nth-of-type(8):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 83% 5%;
+}
+
+div:nth-of-type(9):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 40% 5%;
+}
+
+div:nth-of-type(10):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(11):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+}
+
+div:nth-of-type(12):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+}
+
+div:nth-of-type(13):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+}
+
+div:nth-of-type(14):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+}
+
+div:nth-of-type(15):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+
+}
+
+div:nth-of-type(16):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+
+}
+
+div:nth-of-type(17):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+
+}
+
+div:nth-of-type(18):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 10%;
+}
+
+div:nth-of-type(19):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(28):not(.chessTable):before {
+    display: block;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(37):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(46):not(.chessTable):before {
+    display: inline-block;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(55):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(56):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(57):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(58):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(59):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(60):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(61):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(62):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(63):not(.chessTable):before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/chess.png);
+    content: "";
+    background-position: 103% 100%;
+}
+
+div:nth-of-type(64):not(.chessTable):before {
+    display: inline-block;
+    counter-increment: div;
+    content: counter(div);
+}
+
+div:nth-of-type(56):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 40% 100%;
+    background-color: blue;
+}
+
+div:nth-of-type(57):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 83% 100%;
+}
+
+div:nth-of-type(58):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 63% 100%;
+    background-color: blue;
+}
+
+div:nth-of-type(59):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 20% 100%;
+}
+
+div:nth-of-type(60):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: -2% 100%;
+    background-color: blue;
+}
+
+div:nth-of-type(61):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 63% 100%;
+}
+
+div:nth-of-type(62):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 83% 100%;
+    background-color: blue;
+}
+
+div:nth-of-type(63):not(.chessTable):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid blue;
+    float: left;
+    background-image: url(../image/chess.png);
+    background-position: 40% 100%;
+}
