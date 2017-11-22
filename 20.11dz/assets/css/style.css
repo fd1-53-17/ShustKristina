@@ -132,6 +132,7 @@ div:nth-of-type(2):not(.chessTable):before {
     background-image: url(../image/chess.png);
     content: "";
     background-position: 40% 5%;
+    background-size: 20vmin;
 }
 
 div:nth-of-type(3):not(.chessTable):before {
