@@ -1,0 +1,63 @@
+.calendar {
+    width: 150px;
+}
+
+.archive {
+    height: 20px;
+    background-color: #20b2aa;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+}
+
+.december {
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.december:after {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 12px solid #20b2aa;
+    border-bottom: 6px solid transparent;
+    border-radius: 3px;
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 42px;
+}
+
+.december:before {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 12px solid #20b2aa;
+    border-bottom: 6px solid transparent;
+    border-radius: 3px;
+    content: "";
+    position: absolute;
+    left: 140px;
+    top: 42px;
+}
+
+table {
+    width: 150px;
+    background-color: lightgray;
+    text-align: right;
+    padding-top: 5px;
+    color: gray;
+}
+
+.black {
+    color: black;
+}
+
+.green {
+    background-color: #20b2aa;
+    color: white;
+}
