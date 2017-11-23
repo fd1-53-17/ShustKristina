@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 300px;
+    height: 450px;
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.font {
+    width: 275px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 22px;
+    font-family: verdana;
+}
+
+.list1 {
+    padding-top: 20px;
+    width: 135px;
+    float: left;
+    margin-right: 20px;
+}
+
+.list2 {
+    padding-top: 20px;
+    width: 135px;
+    position: relative;
+    float: left;
+}
+
+.list3 {
+    width: 135px;
+    float: left;
+    clear: left;
+    margin-right: 20px;
+}
+
+.list4 {
+    width: 135px;
+    float: left;
+}
+
+ul {
+    display: block;
+    padding: 0;
+}
+
+li {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-top: 1px solid gray;
+    color: purple;
+}
+
+.back {
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 5px;
+}
