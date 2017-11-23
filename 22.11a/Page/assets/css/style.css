@@ -1,0 +1,35 @@
+div {
+    height: 30px;
+    width: 190px;
+    border-bottom: 1px solid lightgray;
+    color: #00ced1;
+}
+
+ul {
+    padding-left: 8px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.four {
+    width: 15px;
+    background-color: orange;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.four:before {
+    display: block;
+    width: 15px;
+    height: 1px;
+    background-color: orange;
+    content: "";
+    position: absolute;
+    top: 46px;
+}
