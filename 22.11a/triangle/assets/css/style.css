@@ -1,0 +1,41 @@
+.background {
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+    background-color: lightgray;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    border-top: 140px solid green;
+    position: relative;
+    top: 20px;
+    left: 125px;
+}
+
+.triangle:before {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid green;
+    content: "";
+    position: absolute;
+    left: 80px;
+    top: -40px
+}
+
+.triangle:after {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid green;
+    content: "";
+    position: absolute;
+    left: -180px;
+    top: -40px
+}
