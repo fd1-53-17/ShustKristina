@@ -1,0 +1,82 @@
+.folder_back {
+    width: 100vmin;
+    height: 80vmin;
+    background-color: peru;
+    border-radius: 20px;
+    margin-top: 20vmin;
+}
+
+.folder_back:before {
+    width: 40vmin;
+    height: 80vmin;
+    background-color: peru;
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 15vmin;
+}
+
+.page1 {
+    width: 80vmin;
+    height: 50vmin;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: relative;
+    top: -78vmin;
+    left: 10vmin;
+}
+
+.circle {
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 2.5vmin;
+    display: inline-block;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.nav {
+    width: 7vmin;
+    height: 1vmin;
+    background-color: gray;
+    float: right;
+    clear: both;
+    margin: 3px 3px 1px;
+    border-radius: 2px;
+}
+
+.page2 {
+    transform: scale(1.15);
+    position: relative;
+    top: -120vmin;
+    left: vmin;
+}
+
+.page3 {
+    transform: scale(1.2);
+    position: relative;
+    top: -165vmin;
+    left: 60vmin;
+}
+
+.folder_front {
+    width: 100vmin;
+    height: 60vmin;
+    background-color: orange;
+    border-radius: 20px;
+    margin-top: 20vmin;
+    position: absolute;
+    top: 20vmin;
+}
