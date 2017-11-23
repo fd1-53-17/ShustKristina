@@ -1,0 +1,105 @@
+.circle {
+    width: 100vmin;
+    height: 100vmin;
+    border-radius: 50vmin;
+    border: 4vmin solid;
+}
+
+.mouthe {
+    width: 80vmin;
+    height: 40vmin;
+    border-radius: 0 0 50vmin 50vmin;
+    border: solid 3px;
+    border-width: 0 4vmin 4vmin;
+    position: absolute;
+    top: 50vmin;
+    left: 12vmin;
+}
+
+.mouthe:before {
+    width: 4vmin;
+    height: 4vmin;
+    border-radius: 2vmin;
+    background-color: black;
+    content: "";
+    position: absolute;
+    left: -4vmin;
+    top: -2vmin;
+}
+
+.mouthe:after {
+     width: 4vmin;
+    height: 4vmin;
+    border-radius: 2vmin;
+    background-color: black;
+    content: "";
+    position: absolute;
+    left: 80vmin;
+    top: -2vmin;
+}
+
+.eye_left {
+    width: 20vmin;
+    height: 10vmin;
+    border-radius: 50vmin 50vmin 0 0;
+    border: solid;
+    border-width: 4vmin 4vmin 0;
+    position: absolute;
+    top: 20vmin;
+    left: 20vmin;
+}
+
+.eye_left:before {
+     width: 4vmin;
+    height: 4vmin;
+    border-radius: 2vmin;
+    background-color: black;
+    content: "";
+    position: absolute;
+    left: -4vmin;
+    top: 8vmin;
+}
+
+.eye_left:after {
+    width: 4vmin;
+    height: 4vmin;
+    border-radius: 2vmin;
+    background-color: black;
+    content: "";
+    position: absolute;
+    left: 20vmin;
+    top: 8vmin;
+}
+
+.eye_right {
+    width: 20vmin;
+    height: 10vmin;
+    border-radius: 50vmin 50vmin 0 0;
+    border: solid;
+    border-width: 4vmin 4vmin 0;
+    position: absolute;
+    top: 20vmin;
+    left: 66vmin;
+}
+
+.eye_right:before {
+    width: 4vmin;
+    height: 4vmin;
+    border-radius: 2vmin;
+    background-color: black;
+    content: "";
+    position: absolute;
+    left: -4vmin;
+    top: 8vmin;
+}
+
+.eye_right:after {
+     width: 4vmin;
+    height: 4vmin;
+    border-radius: 2vmin;
+    background-color: black;
+    content: "";
+    position: absolute;
+    left: 20vmin;
+    top: 8vmin;
+}
