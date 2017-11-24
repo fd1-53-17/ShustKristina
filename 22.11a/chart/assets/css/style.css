@@ -1,0 +1,42 @@
+body {
+    width: 420px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.one {
+    padding-top: 2px;
+    background-color: azure;
+    border: 1px solid azure;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.two {
+    height: 130px;
+    background-color: azure;
+    outline: 1px solid azure;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    font-family: monospace;
+}
+
+.chart {
+    background-color: azure;
+    border: 1px solid azure;
+    border-radius: 5px;
+}
+
+.color {
+    color: red;
+}
+
+.cursive {
+    font-style: italic;
+    color: lightgray;
+}
+
+.bold {
+    font-weight: bold;
+}

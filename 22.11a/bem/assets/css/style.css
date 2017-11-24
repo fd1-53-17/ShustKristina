@@ -1,0 +1,50 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+p {
+    width: 500px;
+}
+
+.bem {
+    width: 500px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: lightgray;
+    outline: 1px solid gray;
+}
+
+.tools {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.bem2 {
+    display: block;
+    width: 500px;
+    height: 30px;
+    background-color: lightgray;
+    outline: 1px solid gray;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.p {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.color {
+    color: blue;
+}
+
+.cursive {
+    font-style: italic;
+    color: azure;
+}
+.bold{
+    font-weight: bold;
+}

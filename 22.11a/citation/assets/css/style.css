@@ -1,0 +1,23 @@
+.figura {
+    width: 210px;
+    height: 70px;
+    background: pink;
+    position: relative;
+    border-radius: 5px;
+    color: white;
+}
+
+.figura:after {
+    content: "";
+    width: 20px;
+    height: 30px;
+    transform: rotate(-70deg) skew(50deg);
+    background: pink;
+    position: absolute;
+    top: 53px;
+    left: 120px;
+}
+
+p {
+    color: darkred;
+}
