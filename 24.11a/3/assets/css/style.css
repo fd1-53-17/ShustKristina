@@ -1,0 +1,190 @@
+
+.numbers {
+    width: 50px;
+    height: 100px;
+    transition: left 2s, top 2s;
+}
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6{
+    position: relative;
+}
+
+.row1:hover,
+.row2:hover,
+.row3:hover,
+.row4:hover,
+.row5:hover,
+.row6:hover{
+    left: 65px;
+}
+.one,
+.two,
+.three {
+    position: absolute;
+}
+
+.row1>.one {
+    left: 0;
+}
+
+.row1>.two {
+    left: 15px;
+}
+
+.row1>.three {
+    left: 30px;
+}
+.row2>.one {
+    top: 15px;
+    left: 0;
+}
+
+.row2>.two {
+    top: 15px;
+    left: 15px;
+}
+
+.row2>.three {
+    top: 15px;
+    left: 30px;
+}
+.row3>.one {
+    top: 30px;
+    left: 0;
+}
+
+.row3>.two {
+    top: 30px;
+    left: 15px;
+}
+
+.row3>.three {
+    top: 30px;
+    left: 30px;
+}
+.row4>.one {
+    top: 45px;
+    left: 0;
+}
+
+.row4>.two {
+    top: 45px;
+    left: 15px;
+}
+
+.row4>.three {
+    top: 45px;
+    left: 30px;
+}
+.row5>.one {
+    top: 60px;
+    left: 0;
+}
+
+.row5>.two {
+    top: 60px;
+    left: 15px;
+}
+
+.row5>.three {
+    top: 60px;
+    left: 30px;
+}
+.row6>.one {
+    top: 75px;
+    left: 0;
+}
+
+.row6>.two {
+    top: 75px;
+    left: 15px;
+}
+
+.row6>.three {
+    top: 75px;
+    left: 30px;
+}
+
+.row2>.one:hover {
+    top: 15px;
+    left: 65px;
+}
+
+.row2>.two:hover {
+    top: 15px;
+    left: 75px;
+}
+
+.row2>.three:hover {
+    top: 15px;
+    left: 70px;
+}
+
+.row3>.one:hover {
+    top: 30px;
+    left: 15px;
+}
+
+.row3>.two:hover {
+    top: 30px;
+    left: 0;
+}
+
+.row3>.three:hover {
+    top: 30px;
+    left: 30px;
+}
+
+.row4>.one:hover {
+    top: 45px;
+    left: 30px;
+}
+
+.row4>.two:hover {
+    top: 45px;
+    left: 0;
+}
+
+.row4>.three:hover {
+    top: 45px;
+    left: 15px;
+}
+
+.row5>.one:hover {
+    top: 60px;
+    left: 15px;
+}
+
+.row5>.two:hover {
+    top: 60px;
+    left: 30px;
+}
+
+.row5>.three:hover {
+    top: 60px;
+    left: 0;
+}
+
+.row6>.one:hover {
+    top: 75px;
+    left: 30px;
+}
+
+.row6>.two:hover {
+    top: 75px;
+    left: 15px;
+}
+
+.row6>.three:hover {
+    top: 75px;
+    left: 0;
+}
+
+
+
+
+
