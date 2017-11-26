@@ -1,0 +1,29 @@
+.border6{
+    width: 8vmin;
+    height: 8vmin;
+    border: 1vmin solid black;
+    outline: 1vmin solid yellow;
+    margin: 10vmin;
+}
+.border6:before{
+    width: 12vmin;
+    height: 12vmin;
+    border: 1vmin solid green;
+    outline: 1vmin solid blue;
+    margin: 10vmin;
+    content: "";
+    position: absolute;
+    top: -2vmin;
+    left: -1.1vmin;
+}
+.border6:after{
+    width: 15.5vmin;
+    height: 15.5vmin;
+    border: 1vmin solid red;
+    outline: 1vmin solid purple;
+    margin: 10vmin;
+    content: "";
+    position: absolute;
+    top: -3.8vmin;
+    left: -2.8vmin;
+}
