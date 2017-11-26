@@ -1,0 +1,52 @@
+body {
+    width: 100vmin;
+    height: 100vmin;
+    text-align: center;
+    font-size: 5vmin;
+    margin-left: 5vmin;
+}
+
+div {
+    box-shadow: inset 0 0 0 1vmin #000,
+    inset 0 0 0 1.5vmin #fff,
+    inset 0 0 0 2.2vmin #000,
+    inset 0 0 0 3.4vmin #fff,
+    inset 0 0 0 4.2vmin #000,
+    inset 0 0 0 4.8vmin #fff,
+    inset 0 0 0 5.5vmin #000;
+    position: relative;
+}
+img{
+    width: 15vmin;
+    height: 15vmin;
+}
+
+img:first-child {
+    position: absolute;
+    left: 0;
+}
+
+img:nth-of-type(2) {
+    position: absolute;
+    left: 84.8vmin;
+    transform: rotate(90deg);
+}
+
+img:nth-of-type(3) {
+    position: absolute;
+    top: 64.8vmin;
+    left: 0;
+    transform: rotate(-90deg);
+}
+
+img:nth-of-type(4) {
+    position: absolute;
+    top: 64.8vmin;
+    left: 84.8vmin;
+    transform: rotate(180deg);
+}
+
+p {
+    width: 80vmin;
+    padding: 12vmin;
+}
