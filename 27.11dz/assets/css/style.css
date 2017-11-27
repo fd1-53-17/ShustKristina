@@ -62,18 +62,9 @@ h3 {
 }
 
 @media screen and (max-width: 320px) {
-    .header {
-        width: 90vw;
-        text-align: center;
-        background-color: #afeeee;
-        color: blue;
-        margin-left: 6px;
-    }
 
     .content {
         width: 90vw;
-        background: url(../image/football1.png) 100% repeat-y;
-        background-size: 60px;
         position: relative;
         left: -245px;
     }
@@ -91,20 +82,12 @@ h3 {
     }
 
     .aside {
+        background-color: #ffdea0;
         position: relative;
         width: 90vw;
-        background-color: #ffdea0;
         top: 0;
     }
-    ul{
+    ul {
         margin: 0;
-    }
-
-    .footer {
-        width: 90vw;
-        text-align: center;
-        background-color: #afeeee;
-        color: blue;
-        position: relative;
     }
 }
