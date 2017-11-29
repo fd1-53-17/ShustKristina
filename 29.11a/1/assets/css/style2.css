@@ -1,0 +1,7 @@
+
+ input[type="checkbox"]:not(:checked)~input[type="radio"],
+ input[type="checkbox"]:not(:checked)~label{
+    display: none;
+ }
+
+
