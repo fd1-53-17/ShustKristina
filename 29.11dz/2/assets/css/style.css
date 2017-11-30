@@ -1,0 +1,186 @@
+label {
+    display: inline-block;
+    width: 27vw;
+    background-color: darkcyan;
+    border: 5px double green;
+    text-align: center;
+    font-size: 4vw;
+    position: relative;
+}
+
+ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-top: 2vh;
+}
+
+#menu1,
+#menu2,
+#menu3 {
+    display: none;
+}
+
+#menu1:checked~ul:nth-of-type(1),
+#menu2:checked~ul:nth-of-type(2),
+#menu3:checked~ul:nth-of-type(3) {
+    display: block;
+    width: 88vw;
+    position: absolute;
+}
+
+#menu1:checked~ul:nth-of-type(1)>li,
+#menu2:checked~ul:nth-of-type(2)>li,
+#menu3:checked~ul:nth-of-type(3)>li {
+    display: inline-block;
+    width: 28.3vw;
+    position: relative;
+    text-align: center;
+    color: blueviolet;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.submenu>li:after,
+.submenu-2>li:after,
+.submenu-3>li:after {
+    content: "";
+    display: block;
+    width: 28vw;
+    height: 40vh;
+    z-index: -1;
+}
+
+.submenu>li:nth-of-type(1):after {
+    background: url("../image/11.png") 100% no-repeat;
+    background-size: 25vw;
+}
+
+.submenu>li:nth-of-type(2):after {
+    background: url("../image/12.png") 100% no-repeat;
+    background-size: 25vw;
+}
+
+.submenu>li:nth-of-type(3):after {
+    background: url("../image/13.png") 100% no-repeat;
+    background-size: 25vw;
+}
+
+.submenu-2>li:nth-of-type(1):after {
+    background: url("../image/21.png") 100% no-repeat;
+    background-size: 25vw;
+}
+
+.submenu-2>li:nth-of-type(2):after {
+    background: url("../image/22.png") 100% no-repeat;
+    background-size: 25vw;
+}
+
+.submenu-2>li:nth-of-type(3):after {
+    background: url("../image/23.png") 100% no-repeat;
+    background-size: 25vw;
+}
+
+.submenu-3>li:nth-of-type(1):after {
+    background: url("../image/31.png") 100% no-repeat;
+    background-size: 20vw;
+    left: -2vw;
+}
+
+.submenu-3>li:nth-of-type(2):after {
+    background: url("../image/33.png") 100% no-repeat;
+    background-size: 15vw;
+    left: -4vw;
+}
+
+.submenu-3>li:nth-of-type(3):after {
+    background: url("../image/32.png") 100% no-repeat;
+    background-size: 15vw;
+    left: -2vw;
+}
+
+.submenu>li:before,
+.submenu-2>li:before,
+.submenu-3>li:before {
+    content: "5руб";
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw;
+    display: block;
+    width: 10vw;
+    height: 7vh;
+    border: 4px dotted cyan;
+    position: absolute;
+    top: 48vh;
+    left: 8vw;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.submenu>li:hover:before,
+.submenu-2>li:hover:before,
+.submenu-3>li:hover:before {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+li:hover a {
+    background-color: yellow;
+    color: lime;
+}
+
+#menu1~label:nth-of-type(1),
+#menu2~label:nth-of-type(2),
+#menu3~label:nth-of-type(3) {
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+#menu1:checked~label:nth-of-type(1),
+#menu2:checked~label:nth-of-type(2),
+#menu3:checked~label:nth-of-type(3) {
+    -webkit-box-shadow: 0 0 5px 8px darkcyan;
+    box-shadow: 0 0 5px 8px darkcyan;
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 320px) {
+    label {
+        width: 90vw;
+        font-size: 5vh;
+    }
+    #menu1:checked~ul:nth-of-type(1)>li,
+    #menu2:checked~ul:nth-of-type(2)>li,
+    #menu3:checked~ul:nth-of-type(3)>li {
+        position: relative;
+        top: 5vh;
+        font-size: 7vw;
+        width: 90vw;
+    }
+    #menu1:checked~ul:nth-of-type(1)>li:after,
+    #menu2:checked~ul:nth-of-type(2)>li:after,
+    #menu3:checked~ul:nth-of-type(3)>li:after {
+        position: relative;
+        top: -5vh;
+        left: -30px;
+        background-size: 50vw;
+        width: 90vw;
+    }
+    #menu1:checked~ul:nth-of-type(1)>li:before,
+    #menu2:checked~ul:nth-of-type(2)>li:before,
+    #menu3:checked~ul:nth-of-type(3)>li:before {
+        width: 20vw;
+        font-size: 6vw;
+        position: relative;
+        bottom: -10vh;
+        right: 8vw;
+    }
+}
