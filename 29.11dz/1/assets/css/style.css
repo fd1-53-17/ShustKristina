@@ -23,7 +23,7 @@ body {
     height: 180px;
     margin: 15px 0 0 15px;
     padding: 0;
-    border: 1px solid green;
+    border: 5px solid green;
     list-style: none;
 }
 
@@ -71,7 +71,7 @@ ul.submenu>li>a {
 
 .menu-list>li:hover>ul.submenu {
     display: block;
-    border: 1px solid blue;
+    border: 5px solid blue;
 }
 
 ul.submenu>li>a:hover {
