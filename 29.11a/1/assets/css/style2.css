@@ -1,0 +1,5 @@
+input[type="checkbox"]:not(:checked)~input[type="radio"],
+input[type="checkbox"]:not(:checked)~label[for="ex2-green"],
+input[type="checkbox"]:not(:checked)~label[for="ex2-red"] {
+ display: none;
+}
