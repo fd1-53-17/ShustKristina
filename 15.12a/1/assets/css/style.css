@@ -1,0 +1,8 @@
+body {
+  color: yellow;
+  background-color: #eeee00;
+}
+button {
+  border: 4px dotted red;
+  border-radius: 20px;
+}
