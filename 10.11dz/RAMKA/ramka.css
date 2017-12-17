@@ -1,0 +1,15 @@
+.border {
+    width: 100vmin;
+    height: 100vmin;
+    background: url("ramka_01.png") top left no-repeat,
+               url("ramka_03.png") top right no-repeat,
+                url("ramka_02.png") top repeat-x,
+                url("ramka_07.png") bottom left no-repeat,
+                url("ramka_09.png") bottom right no-repeat,
+                url("ramka_04.png") left repeat-y,
+                url("ramka_06.png") right repeat-y,
+                url("ramka_08.png") bottom repeat-x;
+                
+    background-color: white;
+    padding: 60px;
+}
