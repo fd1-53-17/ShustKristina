@@ -1,0 +1,128 @@
+.chessTable {
+    width: 90vmin;
+    height: 90vmin;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    counter-reset: numberLeft numberRight;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+div:not(.chessTable) {
+    width: 9vmin;
+    height: 9vmin;
+}
+
+div:nth-of-type(-n+89):not(.chessTable):not(:nth-of-type(-n+11)):not(:nth-of-type(10n)):not(:nth-of-type(10n+1)) {
+    outline: 1px solid black;
+}
+
+.chessTable>div:nth-of-type(20n+3),
+.chessTable>div:nth-of-type(20n+5),
+.chessTable>div:nth-of-type(20n+7),
+.chessTable>div:nth-of-type(20n+9),
+.chessTable>div:nth-of-type(20n+12),
+.chessTable>div:nth-of-type(20n+14),
+.chessTable>div:nth-of-type(20n+16),
+.chessTable>div:nth-of-type(20n+18) {
+    background-color: darkgrey;
+}
+
+.chessTable>div:nth-of-type(-n+11),
+.chessTable>div:nth-of-type(92),
+.chessTable>div:nth-of-type(94),
+.chessTable>div:nth-of-type(96),
+.chessTable>div:nth-of-type(98) {
+    background-color: white;
+}
+
+.chessTable>div:nth-of-type(2):after,
+.chessTable>div:nth-of-type(92):after {
+    content: "A";
+    line-height: 9vmin;
+    position: absolute;
+    left: 13vmin;
+}
+
+.chessTable>div:nth-of-type(3):after,
+.chessTable>div:nth-of-type(93):after {
+    content: "B";
+    line-height: 9vmin;
+    position: absolute;
+    left: 22vmin;
+}
+
+.chessTable>div:nth-of-type(4):after,
+.chessTable>div:nth-of-type(94):after {
+    content: "C";
+    line-height: 9vmin;
+    position: absolute;
+    left: 31vmin;
+}
+
+.chessTable>div:nth-of-type(5):after,
+.chessTable>div:nth-of-type(95):after {
+    content: "D";
+    line-height: 9vmin;
+    position: absolute;
+    left: 40vmin;
+}
+
+.chessTable>div:nth-of-type(6):after,
+.chessTable>div:nth-of-type(96):after {
+    content: "E";
+    line-height: 9vmin;
+    position: absolute;
+    left: 49vmin;
+}
+
+.chessTable>div:nth-of-type(7):after,
+.chessTable>div:nth-of-type(97):after {
+    content: "F";
+    line-height: 9vmin;
+    position: absolute;
+    left: 58vmin;
+}
+
+.chessTable>div:nth-of-type(8):after,
+.chessTable>div:nth-of-type(98):after {
+    content: "G";
+    line-height: 9vmin;
+    position: absolute;
+    left: 67vmin;
+}
+
+.chessTable>div:nth-of-type(9):after,
+.chessTable>div:nth-of-type(99):after {
+    content: "H";
+    line-height: 9vmin;
+    position: absolute;
+    left: 76vmin;
+}
+
+.chessTable>div:nth-last-child(10n+1):not(:nth-of-type(10)):not(:nth-of-type(100))::after {
+    counter-increment: numberRight;
+    content: counter(numberRight);
+    position: absolute;
+    padding-left: 4vmin;
+    line-height: 9vmin;
+}
+
+.chessTable>div:nth-last-child(10n+1):not(:nth-of-type(10)):not(:nth-of-type(100))::before {
+    counter-increment: numberLeft;
+    content: counter(numberLeft);
+    position: absolute;
+    left: 4vmin;
+    line-height: 9vmin;
+}
