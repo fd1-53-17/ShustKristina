@@ -1,0 +1,14 @@
+@mainColor: yellow;
+body {
+    color: @mainColor;
+    background-color: @mainColor - #111111;
+}
+
+.roundBorder(@br, @bw, @bs, @bc) {
+    border: @bw @bs @bc;
+    border-radius: @br;
+}
+
+button {
+    .roundBorder(20px, 4px, dotted, red)
+}
