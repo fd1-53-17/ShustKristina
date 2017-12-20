@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Отображение в стеке и в порядке очереди</title>
+</head>
+
+<body>
+    <script>
+        var arr = [];
+        arr.push(prompt('Фамилия'));
+        arr.push(prompt('Имя'));
+        arr.push(prompt('Отчество'));
+        console.log(arr.pop() + " " + arr.pop() + " " + arr.pop());
+
+        arr.push(prompt('Фамилия'));
+        arr.push(prompt('Имя'));
+        arr.push(prompt('Отчество'));
+        console.log(arr.shift() + " " + arr.shift() + " " + arr.shift());
+    </script>
+</body>
+
+</html>
