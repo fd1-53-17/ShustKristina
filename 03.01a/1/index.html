@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('button').on('click', listener);
+            
+        });
+
+        function listener() {
+            console.log(this, arguments)
+        }
+    </script>
+    <title>подключение script</title>
+</head>
+
+<body>
+    <button id="btn">кнопка</button>
+     <button id="btn1">кнопка</button>
+      <button id="btn2">кнопка</button>
+       <button id="btn3">кнопка</button>
+</body>
+
+</html>
